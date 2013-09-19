@@ -25,16 +25,12 @@ public class MainActivity extends FragmentActivity {
 		
 		mTabHost.addTab(
 				mTabHost.newTabSpec("map").setIndicator("Map",
-						getResources().getDrawable(android.R.drawable.star_on)),
+						getResources().getDrawable(android.R.drawable.star_big_on)),
 				MapFragment.class, null);
 		mTabHost.addTab(
-				mTabHost.newTabSpec("friends list").setIndicator("Friends List",
-						getResources().getDrawable(android.R.drawable.star_on)),
+				mTabHost.newTabSpec("friends list").setIndicator("Friends",
+						getResources().getDrawable(android.R.drawable.star_big_on)),
 				FriendsListFragment.class, null);
-		mTabHost.addTab(
-				mTabHost.newTabSpec("tab3").setIndicator("Tab 3",
-						getResources().getDrawable(android.R.drawable.star_on)),
-				FragmentTab.class, null);
 
 	}
 }
