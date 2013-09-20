@@ -2,18 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="15dp"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textViewFriends"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="friends list will appear here" />
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="@string/friends_list_heading" />
 
     <ListView
         android:id="@+id/friends_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:scrollbars="none"
+        android:layout_marginRight="@dimen/custom_horizontal_margin"
+        android:layout_height="match_parent" >
     </ListView>
 
 </LinearLayout>

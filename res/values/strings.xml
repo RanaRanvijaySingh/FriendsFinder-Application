@@ -4,5 +4,8 @@
     <string name="app_name">FriendsFinder</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="friends_list_heading">Find Friend\'s Location</string>
+    <dimen name="custom_horizontal_margin">30dp</dimen>
+    
 
 </resources>
