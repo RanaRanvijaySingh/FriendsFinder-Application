@@ -18,7 +18,7 @@ public class MapFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view=inflater.inflate(R.layout.google_map, container,false);
 		mainActivity=(MainActivity)getActivity();
-		initializeMap();
+		//initializeMap();
 		return view;
 
 	}
